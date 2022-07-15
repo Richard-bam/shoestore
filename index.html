@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone shop</title>
+    <!--linking to styleSheet-->
+    <link href="./styles/landingStyle.css" rel="styleSheet" typ="text/css">
+    <!--linking to external Jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<!--the displayProducts function will be called once the body has loaded-->
+
+<body onload="displayProducts()">
+
+    <nav>
+        <div class="container">
+            <a href="./index.html">
+                <h1>Richards Shoe Shop</h1>
+            </a>
+            <!--ul an li will be used to make dropdown menu for contact us -->
+            <ul>
+                <a href="#">Contact Us</a>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Phone</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+            <!--linking to the cart page-->
+            <a href="./cart.html"><img src="./images/shopping-cart.png" id="cartLink" alt="cart image"></a>
+        </div>
+    </nav>
+
+    <!--header section with header image and title-->
+    <header id="heroSection">
+        <img id="headerImage" src="./images/headerImage.jpg" alt="failed image">
+        <h2>THE BEST QUALITY SHOES</h2>
+    </header>
+
+    <!--Products will be dynamically displayed in catalogue section-->
+    <section id="catalogue">
+
+    </section>
+
+    <footer id="footer">
+        <p id="animated">THIS IS THE FOOTER</p>
+    </footer>
+
+    <!--linking to scripts-->
+    <script src="./scripts/shopItems.js"></script>
+    <script src="./scripts/home.js"></script>
+    <script src="./scripts/Jquery.js"></script>
+</body>
+
+</html>

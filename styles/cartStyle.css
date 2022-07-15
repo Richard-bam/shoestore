@@ -1,0 +1,39 @@
+/*setting background colour of body*/
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+}
+
+/*setting the image size*/
+img {
+    width: 75px;
+    height: 75px;
+}
+
+/*styling the template which will contain the cart items*/
+#template {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*adding padding to the p elements*/
+p {
+    padding: 10px;
+}
+
+/*styling anchor tags*/
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+/*stylin the nav*/
+nav {
+    background-color:darkgray;
+    margin: 0%;
+    padding: 0%;
+}

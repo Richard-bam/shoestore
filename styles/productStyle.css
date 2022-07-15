@@ -1,0 +1,42 @@
+/*setting background colour to beige*/
+body {
+    background-color: beige;
+}
+
+/*styling the nav*/
+nav {
+    background-color: beige;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*styling the cart link*/
+a #cartLink {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    padding-right: 30px;
+}
+
+/*styling the anchor tags*/
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+/*giving the images a set width*/
+img {
+    width: 20%
+}
+
+/*styling the product container*/
+#productContainer {
+    text-align: center;
+    margin-top: 2%;
+    background-color: white;
+    padding-bottom: 25px;
+}

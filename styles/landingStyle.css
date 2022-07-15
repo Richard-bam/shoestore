@@ -1,0 +1,115 @@
+/*removing margin and padding from body*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*styling nav*/
+nav {
+    background-color: beige;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*styling the list elements in the dropdown menu*/
+nav ul li {
+    position: relative;
+    list-style: none;
+}
+
+/*styling the nav ul*/
+nav ul {
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*aligning text in dropdown menu in centre*/
+nav ul li {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*styling the cart link*/
+a #cartLink {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    padding-right: 30px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+/*styling the header image*/
+#headerImage {
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+    margin: 0%;
+}
+
+/*styling header section*/
+header {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+}
+
+/*styling the header*/
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*styling header in header section*/
+h2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+/*styling the catalogue which will contain all the products*/
+#catalogue {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*styling all the product cards*/
+.productCards {
+    width: 45%;
+    background-color: beige;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*setting the size for all the images in the catalogue*/
+#catalogue img {
+    width: 100px;
+    height: 100px;
+}
+
+/*styling the footer*/
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: beige;
+    border-top: 2px black solid;
+    position: relative;
+}
+footer p{
+    position:relative
+}

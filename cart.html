@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!--linking to styleSheet-->
+    <link href="./styles/cartStyle.css" rel="styleSheet" type="text/css">
+    <!--linking to external Jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<!--cart load will be called once the body has loaded-->
+<body onload="cartLoad()">
+    <nav>
+        <!--linking back to home page-->
+        <a href="./index.html">
+            <h1>HOME</h1>
+        </a>
+    </nav>
+
+    <div id="cartDisplay">
+        <h3>CART ITEMS:</h3>
+        <!--div will display all cart items-->
+        <div id="template">
+
+        </div>
+    </div>
+
+
+    <!--div containing final total before and after VAT-->
+    <div id="final-total">
+
+    </div>
+    <!--button will toggle delivery options when clicked-->
+    <button id="checkoutBtn">Proceed to checkout</button>
+
+    <!--div contains delivery or pick up options-->
+    <div class="toggled">
+        <form id="optionsForm">
+            <label for="delivery">Delivery</label><input onchange="cartLoad()" value="delivery" name="options"
+                id="delivery" type="radio">
+            <label for="pickUp">Pick Up</label><input onchange="cartLoad()" value="pickUp" name="options" id="pickUp"
+                type="radio">
+        </form>
+    </div>
+
+    <div class="toggled">
+        <label>Discount Code:</label><input id="discount">
+    </div>
+
+    <!--final checkout button-->
+    <button class="toggled" onclick="finalCheckout()">confirm order</button>
+
+    <!--linking to scripts-->
+    <script src="./scripts/shopItems.js"></script>
+    <script src="./scripts/home.js"></script>
+    <script src="./scripts/Jquery.js"></script>
+</body>
+
+</html>
