@@ -8,6 +8,6 @@ on delivery options. All the pages are styled with css.
 
 ### How to use the site
 ![Usage](/capstone_use.png)
-Format: ![Alt text](url)
+Format: ![Alt text](/capstone_use.png))
 
 
